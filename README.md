@@ -64,6 +64,40 @@ Ejercicio 3 - Selección de datos
 
 Ejercicio 4
 
+Crear una base de datos  con las siguientes tablas y registros:
+
+create table electro(
+cod int primary key,
+producto varchar(20),
+precio int not null);
+
+insert into electro values
+(021 , "heladera" , 54000),
+(903 , "licuadora" , 8700),
+(808 , "cocina" , 32000),
+(721 , "lavarrpas" , 60200);
+
+create table compu(
+cod int primary key,
+producto varchar(20),
+precio int not null);
+
+
+insert into compu values
+(404 , "notebook" , 180000),
+(410 , "tables" , 27000),
+(458 , "smartphone" , 43000),
+(440 , "pc" , 75000),
+(430 , "smarttv" , 78000);
+
+
+1. Insertar un registro más en la tabla electro con un secarropas cuyo código es 530 y su precio es de 47000.
+2. Corregir el nombre del producto lavarrpas por lavarropas.
+3. Eliminar el campo cod de la tabla compu y agregar uno llamado estado que admita "bueno" o "malo" como dato y otro campo llamado marca.
+4. Cambiar el nombre de la tabla electro por electrodomesticos.
+5. Cambiar el nombre del campo precio por valor en ambas tablas y que admita valores con decimales.
+6. Insertar dos registro nuevos en cada una de las tablas (con todos los datos posibles) y eliminar todo registro cuyo producto comience con la letra S.
+7. Mostrar todos los productos de a base de datos cuyo precio se mayor a 50000.
 ------------------------------------------------------------------------------
 
 Ejercicio 5
