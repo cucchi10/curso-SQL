@@ -102,6 +102,15 @@ insert into compu values
 
 Ejercicio 5
 
+1. Abrir el script Ejercicio Unions y Joins.sql y ejecutarlo para la creación de la bbss, las tablas y la inserción de datos.
+2. Seleccionar todos los campos de la lista internacionales cuyo idioma es distinto al inglés.
+3.Mostrar la banda y el tema de la tabla internacionales y nacionales juntos.
+4. Seleccionar la banda y el año de todos los registros de ambas tablas editados después de 1990.
+5. Mostrar las bandas de la tabla nacionales con sus respectivos estilos musicales.
+6. Seleccionar la banda, el año y el estilo de todos los temas de la base de datos.
+7. Mostrar las bandas internacionales con su respectivo estilo y discográfica.
+8. Mostrar las bandas, sus estilos y discográficas de la tabla nacionales incluyendo los estilos que no pertenecen a la misma.
+
 ------------------------------------------------------------------------------
 
 Ejercicio 6
